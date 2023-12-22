@@ -1,0 +1,107 @@
+.raceDisplay{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    background-color: rgb(135, 118, 118);
+    height: 100vh;
+}
+.main-container{
+    height: 100vh;
+    display: flex;
+    width:100vw;
+    background-color: rgb(162, 155, 165);
+}
+.btn-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: flex-end;
+    
+}
+.scoreDisplay{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    flex-direction:row;
+    justify-content: center;
+}
+hr{
+    width:100%;
+}
+.race-start-btn{
+    background-color: rgb(224, 9, 52);
+    color:#ffffff;
+    width:100px;
+    padding: 10px;
+    border-width: 0px;
+}
+.runner-details-container{
+    width:30%;
+    background-color: rgb(144, 132, 157);
+    padding: 10px;
+    margin:15px;
+    display: flex;
+    flex-direction: column;
+}
+.list-of-participants-container{
+    width:70%;
+    background-color: rgb(233, 230, 237);
+    padding: 10px;
+    margin:15px;
+    display: flex;
+    flex-direction: column;
+
+}
+.input-container{
+    display: flex;
+    flex-direction: column;
+    margin:10px;
+}
+label{
+    margin-bottom: 3px;
+    font-weight:bold;
+    font-family: "Roboto";
+}
+input{
+    width:80%;
+    padding:10px;
+    font-family: "Roboto";
+    color:dimgrey;
+    border-width: none;
+
+}
+.list-container1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    background-color: transparent;
+}
+.list-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+}
+
+
+.list1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+   
+.list-ele{
+    font-family:'Roboto';
+    font-weight: bold;
+    color:black;
+    font-size: 16px;
+}
+
+
+button{
+    padding: 10px;
+    color:#ffffff;
+    background-color: black;
+}
