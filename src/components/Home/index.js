@@ -92,7 +92,7 @@ class Home extends Component {
       <div>
         {
           isGameStarted ? (<div className='main-container'>
-            <h1>hi</h1>
+            {/* <h1>hi</h1> */}
             <div className='runner-details-container'>
               <form className='form-controls' onSubmit={this.submitForm}>
                 <h1>RUNNER DETAILS</h1>
